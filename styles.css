@@ -19,7 +19,7 @@ h1{
     margin: 30px 0;
     font-size: 2em;
     background-color: #83c5be;
-    background-image: linear-gradient(45deg, #be95c4, #fcbf49, #83c5be );
+    background-image: linear-gradient( #be95c4, #fcbf49, #83c5be );
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
