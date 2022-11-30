@@ -1,0 +1,75 @@
+/* #83c5be,#fcbf49,#be95c4
+
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#be95c4,  #83c5be);
+    color: #fcbf49;
+    text-shadow: 0 0 2px black;
+}
+
+h1{
+    margin: 30px 0;
+    font-size: 2em;
+    background-color: #83c5be;
+    background-image: linear-gradient(45deg, #be95c4, #fcbf49, #83c5be );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    
+}
+#daniel-img{
+    margin-bottom: 30px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #83c5be;
+    
+}
+.gift-container{
+    height: 2200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.gift-box{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url(img/cake.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#gift-box1:hover{
+    background-image: url("https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif");
+    background-size: cover;
+}
+#gift-box2:hover{
+    background-image: url(https://media.giphy.com/media/1hqb8LwPS2xCNCpWH8/giphy.gif);
+    background-size: cover;
+}
+#gift-box3:hover{
+    background-image: url(https://media.giphy.com/media/JUqiFbumTAPYIeM8yJ/giphy.gif);
+    background-size: cover;
+}
+#gift-box4:hover{
+   background-image: url(https://media.giphy.com/media/3ov9jWu7BuHufyLs7m/giphy.gif);
+   background-size: cover;
+
+}
+#gift-box5:hover{
+    background-image: url(https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif);
+    background-size: cover;
+}
