@@ -54,6 +54,10 @@ h1{
     border-radius: 20px;
     cursor: pointer;
 }
+#gift-box1{
+    background-image: url("https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif");
+    background-size: cover;
+}
 #gift-box1:hover,
 #gift-box1:focus
 {
