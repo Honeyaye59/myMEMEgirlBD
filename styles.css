@@ -58,7 +58,23 @@ h1{
     background-image: url("https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif");
     background-size: cover;
 }
-#gift-box1:hover,
+#gift-box2{
+    background-image: url("https://media.giphy.com/media/1hqb8LwPS2xCNCpWH8/giphy.gif");
+    background-size: cover;
+}
+#gift-box3{
+    background-image: url("https://media.giphy.com/media/JUqiFbumTAPYIeM8yJ/giphy.gif");
+    background-size: cover;
+}
+#gift-box4{
+    background-image: url("https://media.giphy.com/media/3ov9jWu7BuHufyLs7m/giphy.gif");
+    background-size: cover;
+}
+#gift-box5{
+    background-image: url("https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif");
+    background-size: cover;
+}
+/* #gift-box1:hover,
 #gift-box1:focus
 {
     background-image: url("https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif");
@@ -84,7 +100,7 @@ h1{
 #gift-box5:focus{
     background-image: url(https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif);
     background-size: cover;
-}
+} */
 
 .bd-wish {
     padding: 0 20px;
