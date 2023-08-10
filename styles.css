@@ -11,7 +11,8 @@ body{
     text-align: center;
     font-family: 'Happy Monkey', cursive;
     background: linear-gradient(#be95c4,  #83c5be);
-    color: #fcbf49;
+    /* color: #fcbf49; */
+    color: yellow;
     text-shadow: 0 0 2px black;
 }
 
@@ -21,6 +22,7 @@ h1{
     background-color: #83c5be;
     background-image: linear-gradient( #be95c4, #fcbf49, #83c5be );
     background-size: 100%;
+    background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -52,24 +54,36 @@ h1{
     border-radius: 20px;
     cursor: pointer;
 }
-#gift-box1:hover{
+#gift-box1:hover,
+#gift-box1:focus
+{
     background-image: url("https://media.giphy.com/media/TdfyKrN7HGTIY/giphy.gif");
     background-size: cover;
 }
-#gift-box2:hover{
+#gift-box2:hover,
+#gift-box2:focus{
     background-image: url(https://media.giphy.com/media/1hqb8LwPS2xCNCpWH8/giphy.gif);
     background-size: cover;
 }
-#gift-box3:hover{
+#gift-box3:hover,
+#gift-box3:focus{
     background-image: url(https://media.giphy.com/media/JUqiFbumTAPYIeM8yJ/giphy.gif);
     background-size: cover;
 }
-#gift-box4:hover{
+#gift-box4:hover,
+#gift-box4:focus{
    background-image: url(https://media.giphy.com/media/3ov9jWu7BuHufyLs7m/giphy.gif);
    background-size: cover;
 
 }
-#gift-box5:hover{
+#gift-box5:hover,
+#gift-box5:focus{
     background-image: url(https://media.giphy.com/media/g5R9dok94mrIvplmZd/giphy.gif);
     background-size: cover;
+}
+
+.bd-wish {
+    padding: 0 20px;
+    text-shadow: none;
+    color: yellow;
 }
